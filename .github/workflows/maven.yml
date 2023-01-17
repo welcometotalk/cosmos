@@ -32,4 +32,7 @@ jobs:
 
     - name: List Binary
       run: ls -lrt target/*
+
+    - name: Build Docker Image
+      run: docker build -t cosmos .
    
